@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  margin-bottom: 20 px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+.left-section {
+  display: flex;
+  width: 180px;
+  align-items: center;
+}
+.YT-logo {
+  width: 60%;
+}
+.mid-section {
+  display: flex;
+  flex: 1;
+  max-width: 300px;
+  align-items: center;
+}
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+}
+.search-bar {
+  width: 0;
+  flex: 1;
+  font-size: 15px;
+  height: 34px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.right-section {
+  display: flex;
+  flex-shrink: 0;
+  width: 150px;
+  align-items: center;
+  justify-content: space-around;
+}

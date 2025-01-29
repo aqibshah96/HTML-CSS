@@ -1,0 +1,21 @@
+.boccus {
+  display: inline-block;
+  width: 250px;
+  border-style: solid;
+}
+.cat {
+  width: 100%;
+}
+.profile-name {
+  font-weight: bold;
+  margin: 0;
+}
+.channel-pic {
+  padding-top: 7px;
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 25px;
+}
+.mutuals-text {
+  display: inline-block;
+}

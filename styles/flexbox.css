@@ -1,0 +1,12 @@
+.boxy-boi {
+  display: flex;
+  flex-direction: row;
+}
+.flex1 {
+  background-color: blue;
+  width: 400px;
+}
+.flex2 {
+  background-color: brown;
+  width: 400px;
+}

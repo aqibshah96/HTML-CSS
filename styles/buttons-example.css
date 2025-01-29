@@ -1,0 +1,61 @@
+button {
+  padding: 10px 10px 10px 10px;
+  width: fit-content;
+}
+.sub {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.sub:hover {
+  opacity: 0.75;
+}
+.sub:active {
+  content: "SUBSCRIBED";
+}
+.join {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  color: rgb(41, 118, 211);
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.join:hover {
+  box-shadow: black;
+  color: white;
+  background-color: rgb(41, 118, 211);
+}
+.tweet {
+  background-color: rgb(29, 155, 240);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+}
+.tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 15);
+}
+.tweet:active {
+  transform: translateY(4px);
+  box-shadow: none;
+  transition: box-shadow 0.15s;
+}
+.Ubussy {
+  color: white;
+  border: none;
+  background-color: black;
+}
+.Ubussy:hover {
+  opacity: 0.8;
+}
